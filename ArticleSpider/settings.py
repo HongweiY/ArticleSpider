@@ -67,7 +67,7 @@ ROBOTSTXT_OBEY = False
 ITEM_PIPELINES = {
     # 'ArticleSpider.pipelines.JsonExporterPipleline': 2,
     # # 'scrapy.pipelines.images.ImagesPipeline': 1,
-    'ArticleSpider.pipelines.ArticleImagePipeline': 1,
+     #'ArticleSpider.pipelines.ArticleImagePipeline': 1,
     'ArticleSpider.pipelines.MysqlTwistedPipleline': 2,
 }
 
@@ -101,3 +101,6 @@ MYSQL_HOST = '127.0.0.1'
 MYSQL_DBNAME = 'article_spider'
 MYSQL_USER = 'ymfsder'
 MYSQL_PASSWORD = 'abc123'
+
+SQL_DATETIME_FORMAT = '%Y-%m-%d %H:%M:%S'
+SQL_DATE_FORMAT = '%Y-%m-%d'

@@ -1,0 +1,5 @@
+'
+                           insert into zhihu_answer (zhihu_id, url, question_id, author_id, content, priase_num, comments_num, create_time, update_time, crawl_time)
+                           VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s)
+                       '
+                       <class 'tuple'>: (221666264, 'http://www.zhihu.com/api/v4/answers/221666264', 20312460, '75fe4cf3a7ab7c09f5011a4e82aeecb0', '<p>两者拜的神不同</p>', 20, 9, '2017-08-28 11:30:06', '2017-08-28 11:30:07', '2017-08-28 15:37:25')

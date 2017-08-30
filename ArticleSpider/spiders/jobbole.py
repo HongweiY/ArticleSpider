@@ -5,7 +5,7 @@ import scrapy
 import datetime
 from scrapy import Request
 from urllib import parse
-from ArticleSpider.items import JobBoleArticleItem, ArticleItemLoader
+from items import JobBoleArticleItem, ArticleItemLoader
 from ArticleSpider.utils.common import get_md5
 
 from scrapy.loader import ItemLoader
