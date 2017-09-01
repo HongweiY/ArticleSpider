@@ -1,14 +1,12 @@
 # -*- coding: utf-8 -*-
 
-import re
-import scrapy
-import datetime
-from scrapy import Request
 from urllib import parse
-from items import JobBoleArticleItem, ArticleItemLoader
-from ArticleSpider.utils.common import get_md5
 
-from scrapy.loader import ItemLoader
+import scrapy
+from scrapy.http import Request
+
+from items import JobBoleArticleItem, ArticleItemLoader
+from utils.common import get_md5
 
 
 class JobboleSpider(scrapy.Spider):

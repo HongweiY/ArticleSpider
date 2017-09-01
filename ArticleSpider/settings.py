@@ -27,13 +27,13 @@ ROBOTSTXT_OBEY = False
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-# DOWNLOAD_DELAY = 3
+# DOWNLOAD_DELAY = 10
 # The download delay setting will honor only one of:
 # CONCURRENT_REQUESTS_PER_DOMAIN = 16
 # CONCURRENT_REQUESTS_PER_IP = 16
 
 # Disable cookies (enabled by default)
-# COOKIES_ENABLED = False
+COOKIES_ENABLED = False
 
 # Disable Telnet Console (enabled by default)
 # TELNETCONSOLE_ENABLED = False
@@ -52,9 +52,11 @@ ROBOTSTXT_OBEY = False
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
-# DOWNLOADER_MIDDLEWARES = {
-#    'ArticleSpider.middlewares.MyCustomDownloaderMiddleware': 543,
-# }
+
+DOWNLOADER_MIDDLEWARES = {
+    'ArticleSpider.middlewares.RandomUserAgentMiddleware': 543,
+    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+}
 
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
@@ -67,7 +69,7 @@ ROBOTSTXT_OBEY = False
 ITEM_PIPELINES = {
     # 'ArticleSpider.pipelines.JsonExporterPipleline': 2,
     # # 'scrapy.pipelines.images.ImagesPipeline': 1,
-     #'ArticleSpider.pipelines.ArticleImagePipeline': 1,
+    # 'ArticleSpider.pipelines.ArticleImagePipeline': 1,
     'ArticleSpider.pipelines.MysqlTwistedPipleline': 2,
 }
 
@@ -76,9 +78,19 @@ IMAGES_URLS_FIELD = "front_image_url"
 project_dir = os.path.abspath(os.path.dirname(__file__))
 IMAGES_STORE = os.path.join(project_dir, 'images')
 
+import sys
+
+BASE_DIR = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
+print(BASE_DIR)
+sys.path.insert(0, os.path.join(BASE_DIR, 'ArticleSpider'))
+
+USER_AGENT = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+
+RANDOM_UA_TYPE = 'random'
+
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
-# AUTOTHROTTLE_ENABLED = True
+AUTOTHROTTLE_ENABLED = True
 # The initial download delay
 # AUTOTHROTTLE_START_DELAY = 5
 # The maximum download delay to be set in case of high latencies
@@ -87,7 +99,7 @@ IMAGES_STORE = os.path.join(project_dir, 'images')
 # each remote server
 # AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0
 # Enable showing throttling stats for every response received:
-# AUTOTHROTTLE_DEBUG = False
+AUTOTHROTTLE_DEBUG = True
 
 # Enable and configure HTTP caching (disabled by default)
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
