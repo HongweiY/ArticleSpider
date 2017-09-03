@@ -7,7 +7,11 @@
 
 from scrapy import signals
 from fake_useragent import UserAgent
+from scrapy.http import HtmlResponse
+from selenium import webdriver
 from tools.crawl_xici_ip import GetIP
+import time
+
 
 
 class ArticlespiderSpiderMiddleware(object):
@@ -77,4 +81,12 @@ class RandomUserAgentMiddleware(object):
         request.headers.setdefault('User-Agent', get_ua())
         # request.meta['proxy'] = get_ip.get_random_ip()
 
+
+# 将selenium集中到scrapy中
+class JSPageMidddleware(object):
+    def process_request(self, request, spider):
+        if spider.name == 'jobbole':
+            spider.browser.get(request.url)
+            time.sleep(2)
+            return HtmlResponse(url=spider.browser.current_url, body=spider.browser.page_source, encoding='utf-8')
 

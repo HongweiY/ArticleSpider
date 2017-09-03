@@ -7,12 +7,28 @@ from scrapy.http import Request
 
 from items import JobBoleArticleItem, ArticleItemLoader
 from utils.common import get_md5
+from selenium import webdriver
+from scrapy.xlib.pydispatch import dispatcher
+from scrapy import signals
+from pyvirtualdisplay import Display
 
 
 class JobboleSpider(scrapy.Spider):
     name = 'jobbole'
     allowed_domains = ['blog.jobbole.com']
     start_urls = ['http://blog.jobbole.com/all-posts/']
+
+    def __init__(self):
+        self.display = Display(visible=0, size=(800, 600))
+        self.display.start()
+
+        self.browser = webdriver.Chrome(executable_path='/home/yumengfsd/PycharmProjects/ArticleSpider/chromedriver')
+        super(JobboleSpider, self).__init__()
+        dispatcher.connect(self.spider_closed, signals.spider_closed)
+
+    def spider_closed(self, spider):
+        # 当爬虫关闭时，关闭浏览器
+        self.browser.quit()
 
     def parse(self, response):
         """

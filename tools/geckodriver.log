@@ -1,0 +1,219 @@
+1504229822097	geckodriver	INFO	geckodriver 0.18.0
+1504229822102	geckodriver	INFO	Listening on 127.0.0.1:33803
+1504229822301	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504229823735	Marionette	INFO	Enabled via --marionette
+1504229826964	Marionette	INFO	Listening on port 36151
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504229827070	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504229827151	Marionette	DEBUG	loaded listener.js
+1504229827199	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504229827334	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504229827334	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504229828118	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://item.jd.com/5364614.html"
+1504229828123	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://item.jd.com/5364614.html"
+1504229828140	Marionette	DEBUG	Received DOM event "pageshow" for "https://item.jd.com/5364614.html"
+1504229829999	Marionette	DEBUG	Received DOM event "pageshow" for "https://misc.360buyimg.com/lib/img/e/blank.gif"
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_817-2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_5395-2_163_5394-0_0_8274&ver=20131107, line 203: unreachable code after return statement
+1504229835135	Marionette	DEBUG	Received DOM event "pageshow" for "https://item.jd.com/5364614.html"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1504230614819	geckodriver	INFO	geckodriver 0.18.0
+1504230614824	geckodriver	INFO	Listening on 127.0.0.1:52455
+1504230616015	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504230616956	Marionette	INFO	Enabled via --marionette
+1504230619727	Marionette	INFO	Listening on port 33753
+1504230619774	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504230619856	Marionette	DEBUG	loaded listener.js
+1504230619939	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504230620121	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504230620121	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504230621043	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://item.jd.com/5364614.html"
+1504230621060	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://item.jd.com/5364614.html"
+1504230621088	Marionette	DEBUG	Received DOM event "pageshow" for "https://item.jd.com/5364614.html"
+1504230623060	Marionette	DEBUG	Received DOM event "pageshow" for "https://misc.360buyimg.com/lib/img/e/blank.gif"
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_817-2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_5395-2_163_5394-0_0_8274&ver=20131107, line 203: unreachable code after return statement
+1504230628260	Marionette	DEBUG	Received DOM event "pageshow" for "https://item.jd.com/5364614.html"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1504230650531	geckodriver	INFO	geckodriver 0.18.0
+1504230650542	geckodriver	INFO	Listening on 127.0.0.1:52095
+1504230651708	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504230652509	Marionette	INFO	Enabled via --marionette
+1504230654947	Marionette	INFO	Listening on port 33861
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504230655052	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504230655105	Marionette	DEBUG	loaded listener.js
+1504230655142	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504230655271	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504230655272	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504230656020	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://item.jd.com/5364614.html"
+1504230656120	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://item.jd.com/5364614.html"
+1504230656131	Marionette	DEBUG	Received DOM event "pageshow" for "https://item.jd.com/5364614.html"
+1504230657188	Marionette	DEBUG	Received DOM event "pageshow" for "https://misc.360buyimg.com/lib/img/e/blank.gif"
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_817-2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_5395-2_163_5394-0_0_8274&ver=20131107, line 203: unreachable code after return statement
+1504230663500	Marionette	DEBUG	Received DOM event "pageshow" for "https://item.jd.com/5364614.html"
+1504230663655	Marionette	INFO	New connections will no longer be accepted
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: resource://shield-recipe-client/lib/RecipeRunner.jsm, line 153: TypeError: prefs is undefined
+1504232919239	geckodriver	INFO	geckodriver 0.18.0
+1504232919254	geckodriver	INFO	Listening on 127.0.0.1:55261
+1504232919833	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504232923269	Marionette	INFO	Enabled via --marionette
+1504232929305	Marionette	INFO	Listening on port 39189
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504232929357	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504232929420	Marionette	DEBUG	loaded listener.js
+1504232929519	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504232930102	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504232930104	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504232932134	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zhihu.com/#signin"
+1504232935829	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zhihu.com/#signin"
+1504233212604	geckodriver	INFO	geckodriver 0.18.0
+1504233212616	geckodriver	INFO	Listening on 127.0.0.1:60999
+1504233213194	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504233215419	Marionette	INFO	Enabled via --marionette
+1504233220846	Marionette	INFO	Listening on port 46765
+1504233220932	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504233221051	Marionette	DEBUG	loaded listener.js
+1504233221183	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504233221798	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504233221799	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504233223102	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zhihu.com/#signin"
+1504233230340	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zhihu.com/#signin"
+1504233231209	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504233233296	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504233271420	geckodriver	INFO	geckodriver 0.18.0
+1504233271430	geckodriver	INFO	Listening on 127.0.0.1:36997
+1504233271985	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504233274188	Marionette	INFO	Enabled via --marionette
+1504233278842	Marionette	INFO	Listening on port 41307
+1504233279078	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504233279193	Marionette	DEBUG	loaded listener.js
+1504233279356	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504233280188	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504233280189	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504233283609	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zhihu.com/#signin"
+1504233287494	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zhihu.com/#signin"
+1504233288023	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1504233289302	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1504234427470	geckodriver	INFO	geckodriver 0.18.0
+1504234427479	geckodriver	INFO	Listening on 127.0.0.1:34353
+1504234427665	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504234429439	Marionette	INFO	Enabled via --marionette
+1504234432623	Marionette	INFO	Listening on port 46661
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504234432717	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504234432754	Marionette	DEBUG	loaded listener.js
+1504234432862	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504234434454	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504234434455	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504234434825	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=http%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1504234432.9118"
+1504234434936	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=http%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1504234432.9118"
+1504234442191	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.0.9/index.js, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Error during native OpenGL init.
+* WebGL 2 requires support for the following features: 
+  transform_feedback2
+* Exhausted GL driver options.
+1504234513090	geckodriver	INFO	geckodriver 0.18.0
+1504234513095	geckodriver	INFO	Listening on 127.0.0.1:36731
+1504234513264	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504234514407	Marionette	INFO	Enabled via --marionette
+1504234516966	Marionette	INFO	Listening on port 39139
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504234517019	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504234517081	Marionette	DEBUG	loaded listener.js
+1504234517138	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504234517855	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504234517856	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504234518045	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=http%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1504234517.1784"
+1504234518067	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=http%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1504234517.1784"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.0.9/index.js, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Error during native OpenGL init.
+* WebGL 2 requires support for the following features: 
+  transform_feedback2
+* Exhausted GL driver options.
+1504234609664	geckodriver	INFO	geckodriver 0.18.0
+1504234609672	geckodriver	INFO	Listening on 127.0.0.1:42967
+1504234609870	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504234610929	Marionette	INFO	Enabled via --marionette
+1504234612960	Marionette	INFO	Listening on port 33095
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504234613015	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504234613061	Marionette	DEBUG	loaded listener.js
+1504234613086	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504234614574	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504234614574	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504234614980	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=http%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1504234613.1308"
+1504234614999	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=http%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1504234613.1308"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.0.9/index.js, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Error during native OpenGL init.
+* WebGL 2 requires support for the following features: 
+  transform_feedback2
+* Exhausted GL driver options.
+1504234704679	geckodriver	INFO	geckodriver 0.18.0
+1504234704692	geckodriver	INFO	Listening on 127.0.0.1:57023
+1504234704805	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504234705803	Marionette	INFO	Enabled via --marionette
+1504234708193	Marionette	INFO	Listening on port 41533
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504234708242	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504234708308	Marionette	DEBUG	loaded listener.js
+1504234708399	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504234709087	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504234709088	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504234710306	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=http%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1504234708.4417"
+1504234710332	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=http%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1504234708.4417"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.0.9/index.js, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Error during native OpenGL init.
+* WebGL 2 requires support for the following features: 
+  transform_feedback2
+* Exhausted GL driver options.
+1504234745505	geckodriver	INFO	geckodriver 0.18.0
+1504234745511	geckodriver	INFO	Listening on 127.0.0.1:56117
+1504234745831	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504234747452	Marionette	INFO	Enabled via --marionette
+1504234749922	Marionette	INFO	Listening on port 45009
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504234750286	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504234750367	Marionette	DEBUG	loaded listener.js
+1504234750465	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504234751176	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504234751177	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504234751450	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=http%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1504234750.5158"
+1504234751468	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=http%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1504234750.5158"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.0.9/index.js, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Error during native OpenGL init.
+* WebGL 2 requires support for the following features: 
+  transform_feedback2
+* Exhausted GL driver options.
+1504235027283	geckodriver	INFO	geckodriver 0.18.0
+1504235027290	geckodriver	INFO	Listening on 127.0.0.1:57839
+1504235027453	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1504235028340	Marionette	INFO	Enabled via --marionette
+1504235030638	Marionette	INFO	Listening on port 41083
+1504235030911	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504235031047	Marionette	DEBUG	loaded listener.js
+1504235031356	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504235032098	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504235032099	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504235032430	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=http%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1504235031.4411"
+1504235032447	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=http%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1504235031.4411"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.0.9/index.js, line 1: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Error during native OpenGL init.
+* WebGL 2 requires support for the following features: 
+  transform_feedback2
+* Exhausted GL driver options.
+JavaScript error: https://cdn.optimizely.com/js/245885873.js, line 346: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://support.cdn.mozilla.net/static/build/wiki-min.08a3b7ba8183.js, line 2: TypeError: document.location is null
+[Parent 8030] WARNING: pipe error: 断开的管道: file /build/firefox-qZqDB8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Invalid port. Exiting...
